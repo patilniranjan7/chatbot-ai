@@ -1,6 +1,7 @@
 const express = require("express");
-const { addDbConfig } = require("../controllers/dbConfigController");
 const authMiddleware = require("../middleware/authMiddleware");
+
+const { addDbConfig } = require("../controllers/dbConfigController");
 
 const router = express.Router();
 
