@@ -111,6 +111,12 @@ The repository now includes a standalone command-line chatbot that uses LangChai
    node langchainMongoChatbot.js
    ```
 
+4. Try the demo (works without API keys):
+
+   ```bash
+   npm run demo
+   ```
+
 ### Usage Examples
 
 Once running, you can ask questions like:
